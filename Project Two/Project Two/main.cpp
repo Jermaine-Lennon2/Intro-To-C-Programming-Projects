@@ -24,37 +24,13 @@ Part II - Using a for loop, while loop, or do while loop to display the followin
 #include <iostream>
 using namespace std;
 
-void nestIfElse();
-void switchStatement();
-void listOne();
-void listTwo();
+
 
 int main() {
     
  // PART ONE
     
     // Nested If Else statement
-    void nestIfElse();
-  
-    
-    //Switch Statement
-     
-    void switchStatement();
-
-
-// PART TWO
-    
-    // List 1
-    void listOne();
-
-    
-    // List 2: (Using JUMP method)
-    void listTwo();
-    
-    return 0;
-}
-
-void nestIfElse(){
     
     int x;
       cout << "Type a number: " << endl;
@@ -80,12 +56,10 @@ void nestIfElse(){
     }else{
         cout << "Error! Try again. " << endl;
     }
-    
-}
 
-
-void switchStatement(){
     
+    //Switch Statement
+     
     int y;
     cout << "Enter number: ";
      cin >> y;
@@ -111,10 +85,10 @@ void switchStatement(){
             cout << "default";
     }
     
-}
 
-void listOne(){
+// PART TWO
     
+    // List 1
     int number;
    
     number = 17;
@@ -127,9 +101,7 @@ void listOne(){
             }
           }
             
-}
-
-void listTwo(){
+    // List 2: (Using JUMP method)
     for (int n=20; n>0; n--)
       {
         cout << n << ", ";
@@ -139,4 +111,7 @@ void listTwo(){
           break;
         }
       }
+    return 0;
 }
+
+
